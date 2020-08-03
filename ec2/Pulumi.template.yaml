@@ -1,0 +1,9 @@
+config:
+  aws:region: ap-southeast-2
+  test:certificate_arn: "arn:aws:acm:ap-southeast-2:037716512683:certificate/452f8ab3-0e16-473f-85f0-a9a32099bfe5"
+  test:alb_port: "80"
+  test:api_port: "80"
+  test:api_type: t2.micro
+  test:web_port: "80"
+  test:web_type: t2.micro
+  test:vpc_stack: debu99/test/vpc

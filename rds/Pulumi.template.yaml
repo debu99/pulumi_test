@@ -1,0 +1,6 @@
+config:
+  aws:region: ap-southeast-2
+  test:rds_password: testtest
+  test:rds_username: root
+  test:vpc_stack: debu99/test/vpc
+  test:ec2_stack: debu99/test/ec2

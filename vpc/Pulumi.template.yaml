@@ -1,0 +1,11 @@
+config:
+  aws:region: ap-southeast-2
+  test:private_subnets:
+  - 10.199.3.0/24
+  - 10.199.4.0/24
+  test:public_subnets:
+  - 10.199.0.0/24
+  - 10.199.1.0/24
+  test:vpc_cidr: 10.199.0.0/16
+  test:vpc_name: test_vpc
+  test:zones: "2"
